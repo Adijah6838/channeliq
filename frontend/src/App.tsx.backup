@@ -1,0 +1,12 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ReportPage from './pages/ReportPage';
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<ReportPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
